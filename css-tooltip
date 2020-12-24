@@ -8,11 +8,11 @@
   		<title></title>
 
   		<style type="text/css">
-        .tooltip{
+        .tooltipNew{
           position: relative;
           display: inline-block;border-bottom: 1px dotted black;
         }
-        .tooltip .tooltiptext{
+        .tooltipNew .tooltiptext{
           visibility: hidden;
           width: 120px;
           background-color: black;
@@ -26,7 +26,7 @@
           left: 50%;
           margin-left: -60px;
         }
-        .tooltip .tooltiptext::after{
+        .tooltipNew .tooltiptext::after{
           content: "";
           position: absolute;
           top: 100%;
@@ -36,7 +36,7 @@
           border-style: solid;
           border-color: black transparent transparent transparent;
         }
-        .tooltip:hover .tooltiptext{
+        .tooltipNew:hover .tooltiptext{
           visibility: visible;
         }
   		</style>
@@ -45,7 +45,7 @@
 	<body style="text-align: center;">
     <h2>CSS Tooltip</h2>
     <br>
-    <div class="tooltip">
+    <div class="tooltipNew">
       Hover Me<span class="tooltiptext">Tooltip Text</span>
     </div>
 
